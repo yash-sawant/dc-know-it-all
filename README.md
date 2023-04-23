@@ -1,7 +1,7 @@
 # dc-know-it-all - College Website Expert System
 The College Website Expert System is an application that uses a large language model to provide answers to user queries related to college websites. The system is based on the central concepts of website pages, the text on those pages, and the questions and answers generated from the text.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yash-sawant/dc-know-it-all/blob/main/DC_Dolly_Expert_System.ipynb)
 
 # Architecture
 The system uses a large language model, specifically Databricks Dolly v2, with 3 billion parameters and BERT-based question similarity. The reasoning process works by retrieving the relevant webpage from the dataset based on the user's input question, then providing this webpage and the user input as context and input to the language model to generate a response. The system does not require a detailed conceptual model as it relies on the large language model to handle the complexity of the reasoning process.
